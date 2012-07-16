@@ -15,6 +15,8 @@
 		0237CA4215B459A100984BF7 /* RMIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0237CA4115B459A100984BF7 /* RMIAppDelegate.m */; };
 		0237CA4515B459A100984BF7 /* RMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0237CA4415B459A100984BF7 /* RMIViewController.m */; };
 		0237CA4815B459A100984BF7 /* RMIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0237CA4615B459A100984BF7 /* RMIViewController.xib */; };
+		0237CA5815B461B800984BF7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237CA5715B461B800984BF7 /* icon.png */; };
+		0237CA5A15B461BB00984BF7 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237CA5915B461BB00984BF7 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		0237CA4315B459A100984BF7 /* RMIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMIViewController.h; sourceTree = "<group>"; };
 		0237CA4415B459A100984BF7 /* RMIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMIViewController.m; sourceTree = "<group>"; };
 		0237CA4715B459A100984BF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RMIViewController.xib; sourceTree = "<group>"; };
+		0237CA5715B461B800984BF7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0237CA5915B461BB00984BF7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 		0237CA2215B459A100984BF7 = {
 			isa = PBXGroup;
 			children = (
+				0237CA5915B461BB00984BF7 /* icon@2x.png */,
+				0237CA5715B461B800984BF7 /* icon.png */,
 				0237CA3715B459A100984BF7 /* HelloWorld */,
 				0237CA3015B459A100984BF7 /* Frameworks */,
 				0237CA2E15B459A100984BF7 /* Products */,
@@ -150,6 +156,8 @@
 			files = (
 				0237CA3C15B459A100984BF7 /* InfoPlist.strings in Resources */,
 				0237CA4815B459A100984BF7 /* RMIViewController.xib in Resources */,
+				0237CA5815B461B800984BF7 /* icon.png in Resources */,
+				0237CA5A15B461BB00984BF7 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +282,7 @@
 				0237CA4D15B459A100984BF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
