@@ -10,4 +10,8 @@
 
 @interface RMIViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *statusText;
+
+- (IBAction)buttonPressed:(id)sender;
+
 @end
