@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F93E9215B59253002291A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F93E9115B59253002291A5 /* UIKit.framework */; };
+		02F93E9415B59253002291A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F93E9315B59253002291A5 /* Foundation.framework */; };
+		02F93E9615B59253002291A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F93E9515B59253002291A5 /* CoreGraphics.framework */; };
+		02F93E9C15B59253002291A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02F93E9A15B59253002291A5 /* InfoPlist.strings */; };
+		02F93E9E15B59253002291A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F93E9D15B59253002291A5 /* main.m */; };
+		02F93EA215B59253002291A5 /* RMIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F93EA115B59253002291A5 /* RMIAppDelegate.m */; };
+		02F93EA515B59253002291A5 /* RMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F93EA415B59253002291A5 /* RMIViewController.m */; };
+		02F93EA815B59253002291A5 /* RMIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F93EA615B59253002291A5 /* RMIViewController.xib */; };
+		02F93EAF15B5925A002291A5 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F93EAE15B5925A002291A5 /* icon@2x.png */; };
+		02F93EB115B5925D002291A5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F93EB015B5925D002291A5 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02F93E8D15B59253002291A5 /* 05 Autosize Move Elements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05 Autosize Move Elements.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F93E9115B59253002291A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02F93E9315B59253002291A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02F93E9515B59253002291A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02F93E9915B59253002291A5 /* 05 Autosize Move Elements-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "05 Autosize Move Elements-Info.plist"; sourceTree = "<group>"; };
+		02F93E9B15B59253002291A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02F93E9D15B59253002291A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02F93E9F15B59253002291A5 /* 05 Autosize Move Elements-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "05 Autosize Move Elements-Prefix.pch"; sourceTree = "<group>"; };
+		02F93EA015B59253002291A5 /* RMIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMIAppDelegate.h; sourceTree = "<group>"; };
+		02F93EA115B59253002291A5 /* RMIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMIAppDelegate.m; sourceTree = "<group>"; };
+		02F93EA315B59253002291A5 /* RMIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMIViewController.h; sourceTree = "<group>"; };
+		02F93EA415B59253002291A5 /* RMIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMIViewController.m; sourceTree = "<group>"; };
+		02F93EA715B59253002291A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RMIViewController.xib; sourceTree = "<group>"; };
+		02F93EAE15B5925A002291A5 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		02F93EB015B5925D002291A5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F93E8A15B59253002291A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F93E9215B59253002291A5 /* UIKit.framework in Frameworks */,
+				02F93E9415B59253002291A5 /* Foundation.framework in Frameworks */,
+				02F93E9615B59253002291A5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F93E8215B59253002291A5 = {
+			isa = PBXGroup;
+			children = (
+				02F93EB015B5925D002291A5 /* icon.png */,
+				02F93EAE15B5925A002291A5 /* icon@2x.png */,
+				02F93E9715B59253002291A5 /* 05 Autosize Move Elements */,
+				02F93E9015B59253002291A5 /* Frameworks */,
+				02F93E8E15B59253002291A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02F93E8E15B59253002291A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F93E8D15B59253002291A5 /* 05 Autosize Move Elements.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02F93E9015B59253002291A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02F93E9115B59253002291A5 /* UIKit.framework */,
+				02F93E9315B59253002291A5 /* Foundation.framework */,
+				02F93E9515B59253002291A5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02F93E9715B59253002291A5 /* 05 Autosize Move Elements */ = {
+			isa = PBXGroup;
+			children = (
+				02F93EA015B59253002291A5 /* RMIAppDelegate.h */,
+				02F93EA115B59253002291A5 /* RMIAppDelegate.m */,
+				02F93EA315B59253002291A5 /* RMIViewController.h */,
+				02F93EA415B59253002291A5 /* RMIViewController.m */,
+				02F93EA615B59253002291A5 /* RMIViewController.xib */,
+				02F93E9815B59253002291A5 /* Supporting Files */,
+			);
+			path = "05 Autosize Move Elements";
+			sourceTree = "<group>";
+		};
+		02F93E9815B59253002291A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02F93E9915B59253002291A5 /* 05 Autosize Move Elements-Info.plist */,
+				02F93E9A15B59253002291A5 /* InfoPlist.strings */,
+				02F93E9D15B59253002291A5 /* main.m */,
+				02F93E9F15B59253002291A5 /* 05 Autosize Move Elements-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02F93E8C15B59253002291A5 /* 05 Autosize Move Elements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F93EAB15B59253002291A5 /* Build configuration list for PBXNativeTarget "05 Autosize Move Elements" */;
+			buildPhases = (
+				02F93E8915B59253002291A5 /* Sources */,
+				02F93E8A15B59253002291A5 /* Frameworks */,
+				02F93E8B15B59253002291A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05 Autosize Move Elements";
+			productName = "05 Autosize Move Elements";
+			productReference = 02F93E8D15B59253002291A5 /* 05 Autosize Move Elements.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02F93E8415B59253002291A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = rmisteli.ch;
+			};
+			buildConfigurationList = 02F93E8715B59253002291A5 /* Build configuration list for PBXProject "05 Autosize Move Elements" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02F93E8215B59253002291A5;
+			productRefGroup = 02F93E8E15B59253002291A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02F93E8C15B59253002291A5 /* 05 Autosize Move Elements */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02F93E8B15B59253002291A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F93E9C15B59253002291A5 /* InfoPlist.strings in Resources */,
+				02F93EA815B59253002291A5 /* RMIViewController.xib in Resources */,
+				02F93EAF15B5925A002291A5 /* icon@2x.png in Resources */,
+				02F93EB115B5925D002291A5 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02F93E8915B59253002291A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F93E9E15B59253002291A5 /* main.m in Sources */,
+				02F93EA215B59253002291A5 /* RMIAppDelegate.m in Sources */,
+				02F93EA515B59253002291A5 /* RMIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02F93E9A15B59253002291A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F93E9B15B59253002291A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02F93EA615B59253002291A5 /* RMIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F93EA715B59253002291A5 /* en */,
+			);
+			name = RMIViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02F93EA915B59253002291A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02F93EAA15B59253002291A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02F93EAC15B59253002291A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "05 Autosize Move Elements/05 Autosize Move Elements-Prefix.pch";
+				INFOPLIST_FILE = "05 Autosize Move Elements/05 Autosize Move Elements-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02F93EAD15B59253002291A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "05 Autosize Move Elements/05 Autosize Move Elements-Prefix.pch";
+				INFOPLIST_FILE = "05 Autosize Move Elements/05 Autosize Move Elements-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F93E8715B59253002291A5 /* Build configuration list for PBXProject "05 Autosize Move Elements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F93EA915B59253002291A5 /* Debug */,
+				02F93EAA15B59253002291A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F93EAB15B59253002291A5 /* Build configuration list for PBXNativeTarget "05 Autosize Move Elements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F93EAC15B59253002291A5 /* Debug */,
+				02F93EAD15B59253002291A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02F93E8415B59253002291A5 /* Project object */;
+}
