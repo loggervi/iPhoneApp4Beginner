@@ -131,6 +131,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = rmisteli.ch;
 			};
 			buildConfigurationList = 0237CA6015B463B000984BF7 /* Build configuration list for PBXProject "02 Butto Fun" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -282,6 +283,7 @@
 				0237CA8615B463B000984BF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

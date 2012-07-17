@@ -3,7 +3,7 @@
 //  02 Butto Fun
 //
 //  Created by Reto Misteli on 16.07.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 rmisteli.ch. All rights reserved.
 //
 
 #import "RMIViewController.h"
