@@ -15,8 +15,8 @@
 		0277EE5E15B5845C00012CCB /* RMIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277EE5D15B5845C00012CCB /* RMIAppDelegate.m */; };
 		0277EE6115B5845C00012CCB /* RMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277EE6015B5845C00012CCB /* RMIViewController.m */; };
 		0277EE6415B5845C00012CCB /* RMIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE6215B5845C00012CCB /* RMIViewController.xib */; };
-		0277EE6B15B5846300012CCB /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE6A15B5846300012CCB /* icon@2x.png */; };
-		0277EE6D15B5846600012CCB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE6C15B5846600012CCB /* icon.png */; };
+		0277EE6E15B5896B00012CCB /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE6A15B5846300012CCB /* icon@2x.png */; };
+		0277EE6F15B5897700012CCB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE6C15B5846600012CCB /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -157,8 +157,8 @@
 			files = (
 				0277EE5815B5845C00012CCB /* InfoPlist.strings in Resources */,
 				0277EE6415B5845C00012CCB /* RMIViewController.xib in Resources */,
-				0277EE6B15B5846300012CCB /* icon@2x.png in Resources */,
-				0277EE6D15B5846600012CCB /* icon.png in Resources */,
+				0277EE6E15B5896B00012CCB /* icon@2x.png in Resources */,
+				0277EE6F15B5897700012CCB /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
