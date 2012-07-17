@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0277EE4E15B5845C00012CCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0277EE4D15B5845C00012CCB /* UIKit.framework */; };
+		0277EE5015B5845C00012CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0277EE4F15B5845C00012CCB /* Foundation.framework */; };
+		0277EE5215B5845C00012CCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0277EE5115B5845C00012CCB /* CoreGraphics.framework */; };
+		0277EE5815B5845C00012CCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE5615B5845C00012CCB /* InfoPlist.strings */; };
+		0277EE5A15B5845C00012CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277EE5915B5845C00012CCB /* main.m */; };
+		0277EE5E15B5845C00012CCB /* RMIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277EE5D15B5845C00012CCB /* RMIAppDelegate.m */; };
+		0277EE6115B5845C00012CCB /* RMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277EE6015B5845C00012CCB /* RMIViewController.m */; };
+		0277EE6415B5845C00012CCB /* RMIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE6215B5845C00012CCB /* RMIViewController.xib */; };
+		0277EE6B15B5846300012CCB /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE6A15B5846300012CCB /* icon@2x.png */; };
+		0277EE6D15B5846600012CCB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE6C15B5846600012CCB /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0277EE4915B5845C00012CCB /* 05 Autosize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05 Autosize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0277EE4D15B5845C00012CCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0277EE4F15B5845C00012CCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0277EE5115B5845C00012CCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0277EE5515B5845C00012CCB /* 05 Autosize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "05 Autosize-Info.plist"; sourceTree = "<group>"; };
+		0277EE5715B5845C00012CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0277EE5915B5845C00012CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0277EE5B15B5845C00012CCB /* 05 Autosize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "05 Autosize-Prefix.pch"; sourceTree = "<group>"; };
+		0277EE5C15B5845C00012CCB /* RMIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMIAppDelegate.h; sourceTree = "<group>"; };
+		0277EE5D15B5845C00012CCB /* RMIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMIAppDelegate.m; sourceTree = "<group>"; };
+		0277EE5F15B5845C00012CCB /* RMIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMIViewController.h; sourceTree = "<group>"; };
+		0277EE6015B5845C00012CCB /* RMIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMIViewController.m; sourceTree = "<group>"; };
+		0277EE6315B5845C00012CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RMIViewController.xib; sourceTree = "<group>"; };
+		0277EE6A15B5846300012CCB /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		0277EE6C15B5846600012CCB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0277EE4615B5845C00012CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0277EE4E15B5845C00012CCB /* UIKit.framework in Frameworks */,
+				0277EE5015B5845C00012CCB /* Foundation.framework in Frameworks */,
+				0277EE5215B5845C00012CCB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0277EE3E15B5845C00012CCB = {
+			isa = PBXGroup;
+			children = (
+				0277EE6C15B5846600012CCB /* icon.png */,
+				0277EE6A15B5846300012CCB /* icon@2x.png */,
+				0277EE5315B5845C00012CCB /* 05 Autosize */,
+				0277EE4C15B5845C00012CCB /* Frameworks */,
+				0277EE4A15B5845C00012CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0277EE4A15B5845C00012CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0277EE4915B5845C00012CCB /* 05 Autosize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0277EE4C15B5845C00012CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0277EE4D15B5845C00012CCB /* UIKit.framework */,
+				0277EE4F15B5845C00012CCB /* Foundation.framework */,
+				0277EE5115B5845C00012CCB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0277EE5315B5845C00012CCB /* 05 Autosize */ = {
+			isa = PBXGroup;
+			children = (
+				0277EE5C15B5845C00012CCB /* RMIAppDelegate.h */,
+				0277EE5D15B5845C00012CCB /* RMIAppDelegate.m */,
+				0277EE5F15B5845C00012CCB /* RMIViewController.h */,
+				0277EE6015B5845C00012CCB /* RMIViewController.m */,
+				0277EE6215B5845C00012CCB /* RMIViewController.xib */,
+				0277EE5415B5845C00012CCB /* Supporting Files */,
+			);
+			path = "05 Autosize";
+			sourceTree = "<group>";
+		};
+		0277EE5415B5845C00012CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0277EE5515B5845C00012CCB /* 05 Autosize-Info.plist */,
+				0277EE5615B5845C00012CCB /* InfoPlist.strings */,
+				0277EE5915B5845C00012CCB /* main.m */,
+				0277EE5B15B5845C00012CCB /* 05 Autosize-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0277EE4815B5845C00012CCB /* 05 Autosize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0277EE6715B5845C00012CCB /* Build configuration list for PBXNativeTarget "05 Autosize" */;
+			buildPhases = (
+				0277EE4515B5845C00012CCB /* Sources */,
+				0277EE4615B5845C00012CCB /* Frameworks */,
+				0277EE4715B5845C00012CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05 Autosize";
+			productName = "05 Autosize";
+			productReference = 0277EE4915B5845C00012CCB /* 05 Autosize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0277EE4015B5845C00012CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = rmisteli.ch;
+			};
+			buildConfigurationList = 0277EE4315B5845C00012CCB /* Build configuration list for PBXProject "05 Autosize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0277EE3E15B5845C00012CCB;
+			productRefGroup = 0277EE4A15B5845C00012CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0277EE4815B5845C00012CCB /* 05 Autosize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0277EE4715B5845C00012CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0277EE5815B5845C00012CCB /* InfoPlist.strings in Resources */,
+				0277EE6415B5845C00012CCB /* RMIViewController.xib in Resources */,
+				0277EE6B15B5846300012CCB /* icon@2x.png in Resources */,
+				0277EE6D15B5846600012CCB /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0277EE4515B5845C00012CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0277EE5A15B5845C00012CCB /* main.m in Sources */,
+				0277EE5E15B5845C00012CCB /* RMIAppDelegate.m in Sources */,
+				0277EE6115B5845C00012CCB /* RMIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0277EE5615B5845C00012CCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0277EE5715B5845C00012CCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0277EE6215B5845C00012CCB /* RMIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0277EE6315B5845C00012CCB /* en */,
+			);
+			name = RMIViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0277EE6515B5845C00012CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0277EE6615B5845C00012CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0277EE6815B5845C00012CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "05 Autosize/05 Autosize-Prefix.pch";
+				INFOPLIST_FILE = "05 Autosize/05 Autosize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0277EE6915B5845C00012CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "05 Autosize/05 Autosize-Prefix.pch";
+				INFOPLIST_FILE = "05 Autosize/05 Autosize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0277EE4315B5845C00012CCB /* Build configuration list for PBXProject "05 Autosize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0277EE6515B5845C00012CCB /* Debug */,
+				0277EE6615B5845C00012CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0277EE6715B5845C00012CCB /* Build configuration list for PBXNativeTarget "05 Autosize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0277EE6815B5845C00012CCB /* Debug */,
+				0277EE6915B5845C00012CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0277EE4015B5845C00012CCB /* Project object */;
+}
