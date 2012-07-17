@@ -11,6 +11,7 @@
 @implementation RMIViewController
 @synthesize nameField;
 @synthesize numberField;
+@synthesize sliderLabel;
 
 - (void)didReceiveMemoryWarning
 {
@@ -30,6 +31,7 @@
 {
     [self setNameField:nil];
     [self setNumberField:nil];
+    [self setSliderLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -68,6 +70,12 @@
 - (IBAction)backgroundTap:(id)sender {
     [nameField resignFirstResponder];
     [numberField resignFirstResponder];
+}
+
+- (IBAction)sliderChanged:(id)sender {
+    UISlider *slider = (UISlider *)sender;
+    int progressAsInt = (int)roundf(slider.value);
+    sliderLabel.text = [NSString stringWithFormat:@"%d", progressAsInt];
 }
 
 @end
