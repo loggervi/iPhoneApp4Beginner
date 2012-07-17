@@ -9,6 +9,8 @@
 #import "RMIViewController.h"
 
 @implementation RMIViewController
+@synthesize nameField;
+@synthesize numberField;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +28,8 @@
 
 - (void)viewDidUnload
 {
+    [self setNameField:nil];
+    [self setNumberField:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -55,6 +59,15 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)textFieldDoneEditing:(id)sender{
+    [sender resignFirstResponder];
+}
+
+- (IBAction)backgroundTap:(id)sender {
+    [nameField resignFirstResponder];
+    [numberField resignFirstResponder];
 }
 
 @end
