@@ -18,6 +18,8 @@
 		0277EE3515B54F4900012CCB /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE3415B54F4900012CCB /* icon@2x.png */; };
 		0277EE3715B54F4C00012CCB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE3615B54F4C00012CCB /* icon.png */; };
 		0277EE3915B5501600012CCB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE3815B5501600012CCB /* logo.png */; };
+		0277EE3B15B57A3200012CCB /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE3A15B57A3200012CCB /* whiteButton.png */; };
+		0277EE3D15B57A4600012CCB /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EE3C15B57A4600012CCB /* blueButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		0277EE3415B54F4900012CCB /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		0277EE3615B54F4C00012CCB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		0277EE3815B5501600012CCB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		0277EE3A15B57A3200012CCB /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		0277EE3C15B57A4600012CCB /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		0277EE1E15B54F3D00012CCB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0277EE3C15B57A4600012CCB /* blueButton.png */,
+				0277EE3A15B57A3200012CCB /* whiteButton.png */,
 				0277EE3815B5501600012CCB /* logo.png */,
 				0277EE1F15B54F3D00012CCB /* 04 Controller Fun-Info.plist */,
 				0277EE2015B54F3D00012CCB /* InfoPlist.strings */,
@@ -163,6 +169,8 @@
 				0277EE3515B54F4900012CCB /* icon@2x.png in Resources */,
 				0277EE3715B54F4C00012CCB /* icon.png in Resources */,
 				0277EE3915B5501600012CCB /* logo.png in Resources */,
+				0277EE3B15B57A3200012CCB /* whiteButton.png in Resources */,
+				0277EE3D15B57A4600012CCB /* blueButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
