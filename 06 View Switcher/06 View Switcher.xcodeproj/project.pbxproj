@@ -15,6 +15,12 @@
 		02C6C83A15B685C400FBA333 /* RMIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C6C83915B685C400FBA333 /* RMIAppDelegate.m */; };
 		02C6C84115B685CB00FBA333 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C6C84015B685CB00FBA333 /* icon@2x.png */; };
 		02C6C84315B685CF00FBA333 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C6C84215B685CF00FBA333 /* icon.png */; };
+		02C6C84615B68D1E00FBA333 /* RMISwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C6C84515B68D1E00FBA333 /* RMISwitchViewController.m */; };
+		02C6C84915B68D5D00FBA333 /* RMIBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C6C84815B68D5D00FBA333 /* RMIBlueViewController.m */; };
+		02C6C84C15B68D7B00FBA333 /* RMIYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C6C84B15B68D7B00FBA333 /* RMIYellowViewController.m */; };
+		02C6C84E15B68E6300FBA333 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C6C84D15B68E6300FBA333 /* SwitchView.xib */; };
+		02C6C85015B68E9100FBA333 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C6C84F15B68E9100FBA333 /* BlueView.xib */; };
+		02C6C85215B68EA400FBA333 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C6C85115B68EA400FBA333 /* YellowView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,15 @@
 		02C6C83915B685C400FBA333 /* RMIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMIAppDelegate.m; sourceTree = "<group>"; };
 		02C6C84015B685CB00FBA333 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		02C6C84215B685CF00FBA333 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		02C6C84415B68D1E00FBA333 /* RMISwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMISwitchViewController.h; sourceTree = "<group>"; };
+		02C6C84515B68D1E00FBA333 /* RMISwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMISwitchViewController.m; sourceTree = "<group>"; };
+		02C6C84715B68D5D00FBA333 /* RMIBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMIBlueViewController.h; sourceTree = "<group>"; };
+		02C6C84815B68D5D00FBA333 /* RMIBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMIBlueViewController.m; sourceTree = "<group>"; };
+		02C6C84A15B68D7B00FBA333 /* RMIYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMIYellowViewController.h; sourceTree = "<group>"; };
+		02C6C84B15B68D7B00FBA333 /* RMIYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMIYellowViewController.m; sourceTree = "<group>"; };
+		02C6C84D15B68E6300FBA333 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		02C6C84F15B68E9100FBA333 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
+		02C6C85115B68EA400FBA333 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +95,15 @@
 			children = (
 				02C6C83815B685C400FBA333 /* RMIAppDelegate.h */,
 				02C6C83915B685C400FBA333 /* RMIAppDelegate.m */,
+				02C6C84415B68D1E00FBA333 /* RMISwitchViewController.h */,
+				02C6C84515B68D1E00FBA333 /* RMISwitchViewController.m */,
+				02C6C84715B68D5D00FBA333 /* RMIBlueViewController.h */,
+				02C6C84815B68D5D00FBA333 /* RMIBlueViewController.m */,
+				02C6C84A15B68D7B00FBA333 /* RMIYellowViewController.h */,
+				02C6C84B15B68D7B00FBA333 /* RMIYellowViewController.m */,
+				02C6C84D15B68E6300FBA333 /* SwitchView.xib */,
+				02C6C84F15B68E9100FBA333 /* BlueView.xib */,
+				02C6C85115B68EA400FBA333 /* YellowView.xib */,
 				02C6C83015B685C400FBA333 /* Supporting Files */,
 			);
 			path = "06 View Switcher";
@@ -150,6 +174,9 @@
 				02C6C83415B685C400FBA333 /* InfoPlist.strings in Resources */,
 				02C6C84115B685CB00FBA333 /* icon@2x.png in Resources */,
 				02C6C84315B685CF00FBA333 /* icon.png in Resources */,
+				02C6C84E15B68E6300FBA333 /* SwitchView.xib in Resources */,
+				02C6C85015B68E9100FBA333 /* BlueView.xib in Resources */,
+				02C6C85215B68EA400FBA333 /* YellowView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +189,9 @@
 			files = (
 				02C6C83615B685C400FBA333 /* main.m in Sources */,
 				02C6C83A15B685C400FBA333 /* RMIAppDelegate.m in Sources */,
+				02C6C84615B68D1E00FBA333 /* RMISwitchViewController.m in Sources */,
+				02C6C84915B68D5D00FBA333 /* RMIBlueViewController.m in Sources */,
+				02C6C84C15B68D7B00FBA333 /* RMIYellowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

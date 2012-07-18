@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class RMISwitchViewController;
+
 @interface RMIAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) RMISwitchViewController *swichViewController;
 
 @end
