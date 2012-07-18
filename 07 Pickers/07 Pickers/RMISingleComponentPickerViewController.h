@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RMISingleComponentPickerViewController : UIViewController
+@interface RMISingleComponentPickerViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+
+@property (strong, nonatomic) IBOutlet UIPickerView *singlePicker;
+@property (strong, nonatomic) NSArray *pickerData;
+
+- (IBAction) buttonPressed;
 
 @end
