@@ -10,4 +10,6 @@
 
 @interface RMIYellowViewController : UIViewController
 
+- (IBAction)yellowButtonPressed;
+
 @end

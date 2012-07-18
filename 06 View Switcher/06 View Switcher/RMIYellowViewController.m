@@ -57,4 +57,9 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)yellowButtonPressed {
+    UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Yellow View Button Pressed" message:@"I told you, don't push that button!" delegate:nil cancelButtonTitle:@"Sorry, I coulden't resist." otherButtonTitles:nil, nil];
+    [alert show];
+}
+
 @end

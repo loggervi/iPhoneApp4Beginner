@@ -10,4 +10,6 @@
 
 @interface RMIBlueViewController : UIViewController
 
+- (IBAction)blueButtonPressed;
+
 @end
