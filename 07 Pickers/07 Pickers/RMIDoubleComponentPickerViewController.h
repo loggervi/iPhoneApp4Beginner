@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RMIDoubleComponentPickerViewController : UIViewController
+@interface RMIDoubleComponentPickerViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+
+@property (strong, nonatomic) IBOutlet UIPickerView *doublePicker;
+@property (strong, nonatomic) NSArray *fillingTypes;
+@property (strong, nonatomic) NSArray *breadTypes;
+
+- (IBAction)buttonPressed;
 
 @end
