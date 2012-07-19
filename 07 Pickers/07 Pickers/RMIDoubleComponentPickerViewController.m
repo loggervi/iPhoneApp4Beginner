@@ -8,9 +8,6 @@
 
 #import "RMIDoubleComponentPickerViewController.h"
 
-#define kFillingComponent 0
-#define kBreadComponent 1
-
 @implementation RMIDoubleComponentPickerViewController
 
 @synthesize doublePicker;

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#define kFillingComponent 0
+#define kBreadComponent 1
+
 @interface RMIDoubleComponentPickerViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
 
 @property (strong, nonatomic) IBOutlet UIPickerView *doublePicker;
