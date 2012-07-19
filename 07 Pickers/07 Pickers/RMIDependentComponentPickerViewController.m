@@ -115,4 +115,11 @@
     }
 }
 
+- (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component {
+    if (component == kStateComponent) {
+        return 200;
+    }
+    return 90;
+}
+
 @end
