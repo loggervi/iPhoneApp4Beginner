@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0210D13215B80BD6008A3132 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 0210D12C15B80BD6008A3132 /* apple.png */; };
+		0210D13315B80BD6008A3132 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0210D12D15B80BD6008A3132 /* bar.png */; };
+		0210D13415B80BD6008A3132 /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = 0210D12E15B80BD6008A3132 /* cherry.png */; };
+		0210D13515B80BD6008A3132 /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0210D12F15B80BD6008A3132 /* crown.png */; };
+		0210D13615B80BD6008A3132 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0210D13015B80BD6008A3132 /* lemon.png */; };
+		0210D13715B80BD6008A3132 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = 0210D13115B80BD6008A3132 /* seven.png */; };
+		0210D13B15B80CDA008A3132 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0210D13915B80CDA008A3132 /* crunch.wav */; };
+		0210D13C15B80CDA008A3132 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0210D13A15B80CDA008A3132 /* win.wav */; };
 		021BD53A15B7EF9E007E673B /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 021BD53915B7EF9E007E673B /* statedictionary.plist */; };
 		02C6C86315B6BD2B00FBA333 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C6C86215B6BD2B00FBA333 /* UIKit.framework */; };
 		02C6C86515B6BD2B00FBA333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C6C86415B6BD2B00FBA333 /* Foundation.framework */; };
@@ -35,6 +43,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0210D12C15B80BD6008A3132 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		0210D12D15B80BD6008A3132 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		0210D12E15B80BD6008A3132 /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		0210D12F15B80BD6008A3132 /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		0210D13015B80BD6008A3132 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		0210D13115B80BD6008A3132 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		0210D13915B80CDA008A3132 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		0210D13A15B80CDA008A3132 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 		021BD53915B7EF9E007E673B /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 		02C6C85E15B6BD2B00FBA333 /* 07 Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07 Pickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C6C86215B6BD2B00FBA333 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -85,12 +101,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0210D12B15B80BD6008A3132 /* Custom Picker Images */ = {
+			isa = PBXGroup;
+			children = (
+				0210D12C15B80BD6008A3132 /* apple.png */,
+				0210D12D15B80BD6008A3132 /* bar.png */,
+				0210D12E15B80BD6008A3132 /* cherry.png */,
+				0210D12F15B80BD6008A3132 /* crown.png */,
+				0210D13015B80BD6008A3132 /* lemon.png */,
+				0210D13115B80BD6008A3132 /* seven.png */,
+			);
+			path = "Custom Picker Images";
+			sourceTree = "<group>";
+		};
+		0210D13815B80CDA008A3132 /* Custom Picker Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0210D13915B80CDA008A3132 /* crunch.wav */,
+				0210D13A15B80CDA008A3132 /* win.wav */,
+			);
+			path = "Custom Picker Sounds";
+			sourceTree = "<group>";
+		};
 		02C6C85315B6BD2B00FBA333 = {
 			isa = PBXGroup;
 			children = (
 				02C6C87B15B6BD3D00FBA333 /* icon@2x.png */,
 				02C6C87915B6BD3900FBA333 /* icon.png */,
 				021BD53915B7EF9E007E673B /* statedictionary.plist */,
+				0210D12B15B80BD6008A3132 /* Custom Picker Images */,
+				0210D13815B80CDA008A3132 /* Custom Picker Sounds */,
 				02C6C86815B6BD2B00FBA333 /* 07 Pickers */,
 				02C6C86115B6BD2B00FBA333 /* Frameworks */,
 				02C6C85F15B6BD2B00FBA333 /* Products */,
@@ -231,6 +271,14 @@
 				02C6C8A515B6C30C00FBA333 /* toolicon.png in Resources */,
 				02C6C8A715B6C40900FBA333 /* TabBarController.xib in Resources */,
 				021BD53A15B7EF9E007E673B /* statedictionary.plist in Resources */,
+				0210D13215B80BD6008A3132 /* apple.png in Resources */,
+				0210D13315B80BD6008A3132 /* bar.png in Resources */,
+				0210D13415B80BD6008A3132 /* cherry.png in Resources */,
+				0210D13515B80BD6008A3132 /* crown.png in Resources */,
+				0210D13615B80BD6008A3132 /* lemon.png in Resources */,
+				0210D13715B80BD6008A3132 /* seven.png in Resources */,
+				0210D13B15B80CDA008A3132 /* crunch.wav in Resources */,
+				0210D13C15B80CDA008A3132 /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
