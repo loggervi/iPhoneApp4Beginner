@@ -15,6 +15,7 @@
 		0210D13715B80BD6008A3132 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = 0210D13115B80BD6008A3132 /* seven.png */; };
 		0210D13B15B80CDA008A3132 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0210D13915B80CDA008A3132 /* crunch.wav */; };
 		0210D13C15B80CDA008A3132 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0210D13A15B80CDA008A3132 /* win.wav */; };
+		0210D13E15B82111008A3132 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0210D13D15B82111008A3132 /* AudioToolbox.framework */; };
 		021BD53A15B7EF9E007E673B /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 021BD53915B7EF9E007E673B /* statedictionary.plist */; };
 		02C6C86315B6BD2B00FBA333 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C6C86215B6BD2B00FBA333 /* UIKit.framework */; };
 		02C6C86515B6BD2B00FBA333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C6C86415B6BD2B00FBA333 /* Foundation.framework */; };
@@ -51,6 +52,7 @@
 		0210D13115B80BD6008A3132 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
 		0210D13915B80CDA008A3132 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
 		0210D13A15B80CDA008A3132 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		0210D13D15B82111008A3132 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		021BD53915B7EF9E007E673B /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 		02C6C85E15B6BD2B00FBA333 /* 07 Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07 Pickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C6C86215B6BD2B00FBA333 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -92,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0210D13E15B82111008A3132 /* AudioToolbox.framework in Frameworks */,
 				02C6C86315B6BD2B00FBA333 /* UIKit.framework in Frameworks */,
 				02C6C86515B6BD2B00FBA333 /* Foundation.framework in Frameworks */,
 				02C6C86715B6BD2B00FBA333 /* CoreGraphics.framework in Frameworks */,
@@ -126,6 +129,7 @@
 		02C6C85315B6BD2B00FBA333 = {
 			isa = PBXGroup;
 			children = (
+				0210D13D15B82111008A3132 /* AudioToolbox.framework */,
 				02C6C87B15B6BD3D00FBA333 /* icon@2x.png */,
 				02C6C87915B6BD3900FBA333 /* icon.png */,
 				021BD53915B7EF9E007E673B /* statedictionary.plist */,

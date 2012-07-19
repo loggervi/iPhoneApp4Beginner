@@ -7,20 +7,34 @@
 //
 
 #import "RMICustomPickerViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @implementation RMICustomPickerViewController
 
 @synthesize picker;
 @synthesize winLabel;
+@synthesize button;
 @synthesize column1;
 @synthesize column2;
 @synthesize column3;
 @synthesize column4;
 @synthesize column5;
 
+- (void)showButton {
+    self.button.hidden = NO;
+}
+
+- (void)playWinSound {
+    NSURL *soundURL = [[NSBundle mainBundle] URLForResource:@"win" withExtension:@"wav"];
+    SystemSoundID soundID;
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)soundURL, &soundID);
+    AudioServicesPlaySystemSound(soundID);
+    winLabel.text = @"WINNING!";
+    [self performSelector:@selector(showButton) withObject:nil afterDelay:1.5];
+}
+
 - (IBAction)spin {
     BOOL win = NO;
-    winLabel.text = @"";
     int numInRow = 1;
     int lastVal = -1;
     for (int i = 0; i < 5; i++) {
@@ -41,8 +55,26 @@
         }
     }
     
+    self.button.hidden = YES;
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"crunch" ofType:@"wav"];
+    SystemSoundID soundID;
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath:path], &soundID);
+    AudioServicesPlaySystemSound(soundID);
+    
+    if (win) {
+        [self performSelector:@selector(playWinSound) withObject:nil afterDelay:.5];
+    } else {
+        [self performSelector:@selector(showButton) withObject:nil afterDelay:.5];
+    }
+    
+    winLabel.text = @"";
+    
     if (win) {
         winLabel.text = @"WIN!";
+    } else {
+        
+        winLabel.text = @"";
     }
 }
 
@@ -99,6 +131,7 @@
     // e.g. self.myOutlet = nil;
     self.picker = nil;
     self.winLabel = nil;
+    self.button = nil;
     self.column1 = nil;
     self.column2 = nil;
     self.column3 = nil;
