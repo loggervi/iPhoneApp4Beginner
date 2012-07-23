@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0269AA1515BD3327008C6F52 /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0269AA1415BD3327008C6F52 /* sortednames.plist */; };
 		029202AC15B9F001002B3C60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029202AB15B9F001002B3C60 /* UIKit.framework */; };
 		029202AE15B9F001002B3C60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029202AD15B9F001002B3C60 /* Foundation.framework */; };
 		029202B015B9F001002B3C60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029202AF15B9F001002B3C60 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0269AA1415BD3327008C6F52 /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sortednames.plist; path = "../../../../Desktop/Begin_iOS_5_projects_2011_12_09/08 - Sections/Sections/sortednames.plist"; sourceTree = "<group>"; };
 		029202A715B9F001002B3C60 /* 08 Section.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08 Section.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		029202AB15B9F001002B3C60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		029202AD15B9F001002B3C60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				029202CA15B9F00D002B3C60 /* icon@2x.png */,
+				0269AA1415BD3327008C6F52 /* sortednames.plist */,
 				029202C815B9F009002B3C60 /* icon.png */,
 				029202CC15B9F335002B3C60 /* sortednames.plist */,
 				029202B115B9F001002B3C60 /* 08 Section */,
@@ -163,6 +166,7 @@
 				029202C915B9F009002B3C60 /* icon.png in Resources */,
 				029202CB15B9F00D002B3C60 /* icon@2x.png in Resources */,
 				029202CD15B9F335002B3C60 /* sortednames.plist in Resources */,
+				0269AA1515BD3327008C6F52 /* sortednames.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				029202C715B9F001002B3C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
